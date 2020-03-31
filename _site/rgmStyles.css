@@ -1,0 +1,80 @@
+.body-frame {
+    margin: 0;
+}
+
+.intro-body {
+    width: 100vw;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+    background-image: url("/Images/IntroBkg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Helvetica, sans-serif;
+}
+
+.intro-container {
+    width: 50vw;
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+
+.intro {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.45);
+    padding: 35px;
+    color: lightgray;
+}
+
+.intro-small {
+    font-size: 2em;
+    font-style: italic;
+}
+
+.intro-name {
+    font-size: 3em;
+    font-weight: 400;
+    color: white;
+}
+
+.intro-pic {
+    height: 180px;
+    width: 180px;
+    margin-top: 15px;
+    display: inline-block;
+    background-image: url("/Images/IntroMe.png");
+    border-radius: 50% 50%;
+    background-size: contain;
+}
+
+.intro-links {
+    margin: 0;
+    padding: 15px 0 5px 0;
+    line-height: 1.4em;
+    list-style-type: none;
+    font-size: 1.5em;
+}
+
+.intro-links a:link, a:visited, a:active {
+    color: lightgray;
+    text-decoration: none;
+}
+
+.intro-links a:hover {
+        color: grey;
+        text-decoration: none;
+}
+
+.about-me-container {
+    height: 50vh;
+    width: 100vw;
+}
+
+.contact-container {
+    height: 50vh;
+    width: 100vw;
+}
